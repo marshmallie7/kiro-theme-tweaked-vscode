@@ -252,7 +252,13 @@
       "settings": { "foreground": "#ffcf99" }
     },
     {
-      "scope": "entity.name.type.module",
+      "scope": [
+        "entity.name.type.module",
+        "entity.name.package",
+        "storage.modifier.package",
+        "entity.name.import",
+        "storage.modifier.import"
+      ],
       "settings": { "foreground": "#ffcf99" }
     },
     {

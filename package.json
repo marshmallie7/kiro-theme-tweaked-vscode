@@ -2,7 +2,7 @@
   "name": "kiro-theme-tweaked",
   "displayName": "Kiro Theme Tweaked",
   "description": "A beautiful and modern VS Code theme forked from Kiro IDE.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "elliepreston",
   "engines": {
     "vscode": "^1.18.0"
