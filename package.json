@@ -1,14 +1,9 @@
 {
-  "name": "kiro-theme",
-  "displayName": "Kiro Theme",
+  "name": "kiro-theme-tweaked",
+  "displayName": "Kiro Theme Tweaked",
   "description": "A beautiful and modern VS Code theme forked from Kiro IDE.",
   "version": "1.0.0",
-  "publisher": "MohdZaid",
-  "author": {
-    "name": "Mohd Zaid",
-    "email": "message@zaid.qzz.io",
-    "url": "https://zaid.qzz.io"
-  },
+  "publisher": "elliepreston",
   "engines": {
     "vscode": "^1.18.0"
   },
@@ -25,14 +20,9 @@
     "vibrant"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/BioHazard786/kiro-theme-vscode/blob/main/README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/BioHazard786/kiro-theme-vscode.git"
-  },
-  "bugs": {
-    "url": "https://github.com/BioHazard786/kiro-theme-vscode/issues",
-    "email": "message@zaid.qzz.io"
+    "url": "https://github.com/marshmallie7/kiro-theme-tweaked-vscode.git"
   },
   "icon": "icon.png",
   "galleryBanner": {
@@ -42,14 +32,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Kiro Dark",
+        "label": "Kiro Dark Tweaked",
         "uiTheme": "vs-dark",
-        "path": "./themes/kiro-dark.json"
+        "path": "./themes/kiro-dark-tweaked.json"
       },
       {
-        "label": "Kiro Light",
+        "label": "Kiro Light Tweaked",
         "uiTheme": "vs",
-        "path": "./themes/kiro-light.json"
+        "path": "./themes/kiro-light-tweaked.json"
       }
     ]
   },

@@ -370,7 +370,13 @@
     { "scope": ["storage"], "settings": { "foreground": "#c2a0fd" } },
     { "scope": ["string"], "settings": { "foreground": "#80ffb5" } },
     {
-      "scope": ["support.class", "support.class.component"],
+      "scope": [
+        "entity.name.type",
+        "entity.name.class",
+        "entity.name.interface",
+        "support.class",
+        "support.class.component"
+      ],
       "settings": { "foreground": "#ff80b5" }
     },
     {
