@@ -4,8 +4,8 @@
 
 * This folder contains all of the files necessary for your color theme extension.
 * `package.json` - this is the manifest file that defines the location of the theme file and specifies the base theme of the theme.
-* `themes/kiro-dark.json` - the dark theme definition file.
-* `themes/kiro-light.json` - the light theme definition file.
+* `themes/kiro-dark-scala-patch.json` - the dark theme definition file.
+* `themes/kiro-light-scala-patch.json` - the light theme definition file.
 
 ## Get up and running straight away
 

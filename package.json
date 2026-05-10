@@ -1,8 +1,8 @@
 {
-  "name": "kiro-theme-tweaked",
-  "displayName": "Kiro Theme Tweaked",
-  "description": "A beautiful and modern VS Code theme forked from Kiro IDE.",
-  "version": "1.0.1",
+  "name": "kiro-theme-scala",
+  "displayName": "Kiro Theme (Scala Patch)",
+  "description": "A fork of Kiro Theme for VSCode by Mohd Zaid, patched to improve Scala highlighting",
+  "version": "1.1.0",
   "publisher": "elliepreston",
   "engines": {
     "vscode": "^1.18.0"
@@ -17,29 +17,26 @@
     "color-theme",
     "kiro",
     "modern",
-    "vibrant"
+    "vibrant",
+    "scala"
   ],
   "license": "MIT",
+  "homepage": "https://github.com/marshmallie7/kiro-theme-scala-vscode/blob/main/README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/marshmallie7/kiro-theme-tweaked-vscode.git"
-  },
-  "icon": "icon.png",
-  "galleryBanner": {
-    "color": "#7138cc",
-    "theme": "dark"
+    "url": "https://github.com/marshmallie7/kiro-theme-scala-vscode.git"
   },
   "contributes": {
     "themes": [
       {
-        "label": "Kiro Dark Tweaked",
+        "label": "Kiro Dark (Scala Patch)",
         "uiTheme": "vs-dark",
-        "path": "./themes/kiro-dark-tweaked.json"
+        "path": "./themes/kiro-dark-scala-patch.json"
       },
       {
-        "label": "Kiro Light Tweaked",
+        "label": "Kiro Light (Scala Patch)",
         "uiTheme": "vs",
-        "path": "./themes/kiro-light-tweaked.json"
+        "path": "./themes/kiro-light-scala-patch.json"
       }
     ]
   },

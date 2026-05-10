@@ -1,5 +1,5 @@
 {
-  "name": "Kiro Light",
+  "name": "Kiro Light (Scala Patch)",
   "type": "light",
   "colors": {
     "accent": "#7138cc",
@@ -244,7 +244,13 @@
       "settings": { "foreground": "#d08025" }
     },
     {
-      "scope": "entity.name.type.module",
+      "scope": [
+        "entity.name.type.module",
+        "entity.name.package",
+        "storage.modifier.package",
+        "entity.name.import",
+        "storage.modifier.import"
+      ],
       "settings": { "foreground": "#d08025" }
     },
     {
@@ -362,7 +368,13 @@
     { "scope": ["storage"], "settings": { "foreground": "#7559a6" } },
     { "scope": ["string"], "settings": { "foreground": "#367c53" } },
     {
-      "scope": ["support.class", "support.class.component"],
+      "scope": [
+        "entity.name.type",
+        "entity.name.class",
+        "entity.name.interface",
+        "support.class",
+        "support.class.component"
+      ],
       "settings": { "foreground": "#c80e5c" }
     },
     {
